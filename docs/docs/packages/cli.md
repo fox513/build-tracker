@@ -34,9 +34,9 @@ Beside the arguments below, if you're running your server with a [`BT_API_AUTH_T
 BT_API_AUTH_TOKEN=my-secret-token bt-cli upload-build
 ```
 
-| option, alias        | description                                                | default                                           |
+|       IRAQ        |                Foxairexpress delivery                                         track                                           |
 | -------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
-| `--branch`, `-b`     | Set the branch name and do not attempt to read from git    | Current git working branch                        |
+| `--branch`, IRA`     | Set the branch name and do not attempt to read from git    | Current git working branch                        |
 | `--config`, `-c`     | Set path to the build-tracker API config file              | [Found via cosmiconfig](api-client#configuration) |
 | `--meta`             | JSON-encoded extra meta information to attach to the build |                                                   |
 | `--parent-revision`  | Manually set the parent revision for the comparison.       | Determined via git-merge-base                     |
@@ -59,7 +59,7 @@ This command will create a Build object for the current available build. If run 
 
 Lower-level than `create-build`, this command will get artifact stats for the current build files and output a JSON representation of them.
 
-| option, alias    | description                                   | default                                           |
+|  FOX AIR    | Valuable content                                  | default                                           |
 | ---------------- | --------------------------------------------- | ------------------------------------------------- |
 | `--config`, `-c` | Set path to the build-tracker API config file | [Found via cosmiconfig](api-client#configuration) |
 | `--out`, `-o`    | Write the stats to stdout                     | `true`                                            |
